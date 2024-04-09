@@ -1,0 +1,28 @@
+# 忽略所有的构建文件夹
+build/
+out/
+Release/
+Debug/
+
+# 忽略Visual Studio临时文件和用户设置
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 忽略编译产物
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.ilk
+
+# 忽略日志文件和数据库文件
+*.log
+*.sqlite
+
+# 忽略一些配置文件和系统生成的文件
+.vs/
+.DS_Store
+Thumbs.db
